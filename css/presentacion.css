@@ -1,0 +1,93 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+    flex-direction: column; /* Estructura en columna */
+    max-height: 100vh;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6; /* Espacio entre líneas del texto */
+}
+
+footer {
+
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+   background:#333;
+}
+
+
+/* Estilos para el header */
+#header {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 200vh;
+    height: 100%;
+    background-size: cover;
+    filter: blur(6px);
+    opacity: 0.4;
+    z-index: -1;
+}
+
+#header img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border: 5px solid white;
+    box-shadow: 0 0 10px black;
+}
+
+#header h1 {
+    flex: 1;
+    font-size: 2em;
+    margin: 0;
+} 
+
+
+/* Estilo para la sección de sinopsis */
+#caracteristicas {
+  display: flex;
+  align-items: flex-start; /* Alineación vertical */
+  flex-direction: column; /* Para que el texto vaya en columna */
+  width: 40%; /* Ancho para el texto*/
+}
+#caracteristicas p {
+  font-size: 1.3em;
+  color: white;
+}
+
+#trailer{
+  float: right;
+  padding: 4%;
+}
+
+#trailer iframe {
+  width: 100%; /* Para que el iframe ocupe todo el ancho disponible */
+  height: auto;
+  box-shadow: 0 0 10px black;
+}
