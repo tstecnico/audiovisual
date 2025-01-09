@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnoSoft Audiovisuales</title>
+    <link rel="icon" href="../img/memoria.png">
+    <link rel="stylesheet" href="../css/peliculas.css">
+    <link rel="stylesheet" id="buscar" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<header>
+
+</header>
+<body>
+   <!--seccion header-->
+   <header>
+    <nav class="navbar">
+        <div class="brand-title">TecnoSoft</div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="../index.html">Regresar al inicio</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <hr>
+
+    <!--seccion de busqueda-->
+    <section>
+        <div class="seccionBuscar">
+            <span class="buscarTitulo">Buscar pelicula</span>
+            <div class="botonbuscar">
+                <input type="search" placeholder="Buscar..." class="buscar" id="buscar">
+                <button class="fa-solid fa-magnifying-glass" id="confbuscar"></button>
+            </div>
+        </div>
+    </section>
+        <hr style="width: 50%;">
+
+        <!-- seccion de filtrado -->
+    <section>
+        <div class="class">
+            <br>
+            <h4>Filtrar por género</h4>
+        </div>
+        <div class="container">
+            <div class="filter_buttons">
+                <button class="active" data-name="todas">Todas</button>
+                <button data-name="accion">Accion</button>
+                <button data-name="artes marciales">Artes Marciales</button>
+                <button data-name="aventura">Aventura</button>
+                <button data-name="catastrofes">Catástrofes</button>
+                <button data-name="ciencia ficcion">Ciencia Ficcion</button>
+                <button data-name="crimen">Crimen</button>
+                <button data-name="comedia">Comedia</button>
+                <button data-name="deporte">Deporte</button>
+                <button data-name="drama">Drama</button>
+                <button data-name="fantasia">Fantasia</button>
+                <button data-name="musical">Musical</button>
+                <button data-name="oeste">Oeste</button>
+                <button data-name="pelea">Pelea</button>
+                <button data-name="policiaco">Policiaco</button>
+                <button data-name="robos">Robos</button>
+                <button data-name="romance">Romance</button>
+                <button data-name="thriller">Thriller</button>
+                <button data-name="terror">Terror</button>
+            </div>
+        </div>
+    </section>
+
+    <!--seccion de peliculas-->
+    <section>
+        <div class="filterable_cards">
+
+            <div class="card" data-name="deporte">
+                <img src="../catalogo/peliculas/42.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">42</h6>
+                    <h6 class="card_title">2013</h6>
+                    <p class="card_text"><a href="pelis_html/42.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion">
+                <img src="../catalogo/peliculas/47ronin.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Nombre: 47 Ronnin - La Leyenda Del Samurai</h6>
+                    <h6 class="card_title">Año: 2022</h6>
+                    <p class="card_text"><a href="pelis_html/47ronin.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia" data-class="romance">
+                <img src="../catalogo/peliculas/50primerascitas.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">50 Primeras Citas</h6>
+                    <h6 class="card_title">2004</h6>
+                    <p class="card_text"><a href="pelis_html/50primeras.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="drama">
+                <img src="../catalogo/peliculas/365dias.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">365 Dias</h6>
+                    <h6 class="card_title">2020</h6>
+                    <p class="card_text"><a href="pelis_html/365part1.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="drama">
+                <img src="../catalogo/peliculas/365diasmas.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">365 Dias Mas</h6>
+                    <h6 class="card_title">2022</h6>
+                    <p class="card_text"><a href="pelis_html/365part2.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/aguantalarespiracion.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Aguanta La Respiracion</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/aguantalaresp.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/aguassiniestras.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Aguas Siniestras - Night Swim</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/aguassiniestras.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="ciencia ficcion" data-class="accion">
+                <img src="../catalogo/peliculas/alfilodelmañana.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Al Filo Del Mañana - Edge Of Tomorrow</h6>
+                    <h6 class="card_title">2014</h6>
+                    <p class="card_text"><a href="pelis_html/alfilodelmanana.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller">
+                <img src="../catalogo/peliculas/alertaamber.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Alerta Amber - Amber Alert</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/alertaamber.html">Leer Más</a></p>
+                </div>
+            </div>
+            
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/algeadiosdeldolor.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Algea: Dios Del Dolor - God Of Pain</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/algeadiosdeldolor.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/algoenelagua.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Algo En El Agua - Something In The Water</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/algoenelagua.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="ciencia ficcion" data-class="thriller">
+                <img src="../catalogo/peliculas/alicesubservience.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Alice Subservience</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/alicesubservience.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="ciencia ficcion" data-class="terror">
+                <img src="../catalogo/peliculas/alien1.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Alien 1 - El Octavo Pasajero</h6>
+                    <h6 class="card_title">1979</h6>
+                    <p class="card_text"><a href="pelis_html/alien1.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="ciencia ficcion" data-class="terror">
+                <img src="../catalogo/peliculas/alien2.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Aliens 2 - El Regreso</h6>
+                    <h6 class="card_title">1986</h6>
+                    <p class="card_text"><a href="pelis_html/alien2.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="ciencia ficcion" data-class="terror">
+                <img src="../catalogo/peliculas/alien3.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Alien 3</h6>
+                    <h6 class="card_title">1992</h6>
+                    <p class="card_text"><a href="pelis_html/alien3.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="ciencia ficcion" data-class="terror">
+                <img src="../catalogo/peliculas/alien4.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Alien 4 - Resurreccion</h6>
+                    <h6 class="card_title">1997</h6>
+                    <p class="card_text"><a href="pelis_html/alien4.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="ciencia ficcion" data-class="terror">
+                <img src="../catalogo/peliculas/alienromulus.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Alien Romulus</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/alienromulus.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="ciencia ficcion" data-class="terror">
+                <img src="../catalogo/peliculas/AlienVSDepredador1.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Alien vs Depredador 1</h6>
+                    <h6 class="card_title">2004</h6>
+                    <p class="card_text"><a href="pelis_html/alienvsdepredador1.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="ciencia ficcion" data-class="terror">
+                <img src="../catalogo/peliculas/AlienVSDepredador2.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Alien vs Depredador 2</h6>
+                    <h6 class="card_title">2007</h6>
+                    <p class="card_text"><a href="pelis_html/alienvsdepredador2.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="terror">
+                <img src="../catalogo/peliculas/alive.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Alive - Vivo</h6>
+                    <h6 class="card_title">2020</h6>
+                    <p class="card_text"><a href="pelis_html/alive.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia" data-class="romance">
+                <img src="../catalogo/peliculas/amigosconbeneficio.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Amigos Con Beneficio - Con Derecho A Roce - Friends With Benefits</h6>
+                    <h6 class="card_title">2011</h6>
+                    <p class="card_text"><a href="pelis_html/amigosconbeneficio.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="drama" data-class="fantasia">
+                <img src="../catalogo/peliculas/amigosimaginarios.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Amigos Imaginarios - IF</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/amigosimaginarios.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="drama">
+                <img src="../catalogo/peliculas/amiok.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Am I Ok? - Estoy Bien? - Todo Bien?</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/amiok.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="ciencia ficcion" data-gender="aventura">
+                <img src="../catalogo/peliculas/angellsfallen.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Angels Fallen - Warriors Of Peace</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/angelsfallen.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="fantasia" data-gender="aventura">
+                <img src="../catalogo/peliculas/AnimalesFantásticos1.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Animales Fantasticos Y Donde Encontrarlos 1 - Fantastic Beasts And Where To Find Them 1</h6>
+                    <h6 class="card_title">2016</h6>
+                    <p class="card_text"><a href="pelis_html/animalesfantasticos1.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="fantasia" data-gender="aventura">
+                <img src="../catalogo/peliculas/AnimalesFantásticos2.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Animales Fantasticos Y Donde Encontrarlos 2 - Fantastic Beasts And Where To Find Them 2</h6>
+                    <h6 class="card_title">2018</h6>
+                    <p class="card_text"><a href="pelis_html/animalesfantasticos2.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="fantasia" data-gender="aventura">
+                <img src="../catalogo/peliculas/AnimalesFantásticos3.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Animales Fantasticos Y Donde Encontrarlos 3 - Fantastic Beasts And Where To Find Them 3</h6>
+                    <h6 class="card_title">2022</h6>
+                    <p class="card_text"><a href="pelis_html/animalesfantasticos3.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="drama" data-class="deporte" data-gender="aventura">
+                <img src="../catalogo/peliculas/arthur.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Arthur The King - Arthur El Rey</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/arthur.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="artes marciales" data-gender="pelea">
+                <img src="../catalogo/peliculas/artofeightlimbs.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Art Of Eight Limbs - El Arte De Las Ocho Extremidades</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/artofeightlimbs.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="robos" data-class="drama" data-gender="crimen">
+                <img src="../catalogo/peliculas/atraco88.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Atraco 88 - Heist 88</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/atraco88.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="terror">
+                <img src="../catalogo/peliculas/azrael.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Azrael</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/azrael.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="policiaco" data-gender="comedia">
+                <img src="../catalogo/peliculas/badboy4.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Bad Boy 4: Ride Or Die</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/badboy4.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="thriller">
+                <img src="../catalogo/peliculas/bailarina.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Bailarina</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/bailarina.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="thriller">
+                <img src="../catalogo/peliculas/borderlands.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Borderlands</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/borderlands.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="thriller" data-gender="crimen">
+                <img src="../catalogo/peliculas/bringhimtome.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Bring Him To Me - Tráemelo</h6>
+                    <h6 class="card_title">2023</h6>
+                    <p class="card_text"><a href="pelis_html/bringhimtome.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="thriller">
+                <img src="../catalogo/peliculas/BusquedaImplacable1.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Busqueda Implacable 1 - Taken 1</h6>
+                    <h6 class="card_title">2008</h6>
+                    <p class="card_text"><a href="pelis_html/busquedaimplacable1.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="thriller">
+                <img src="../catalogo/peliculas/busquedaimplacable2.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Busqueda Implacable 2 - Taken 2</h6>
+                    <h6 class="card_title">2012</h6>
+                    <p class="card_text"><a href="pelis_html/busquedaimplacable2.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="thriller">
+                <img src="../catalogo/peliculas/BusquedaImplacable3.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Busqueda Implacable 3 - Taken 3</h6>
+                    <h6 class="card_title">2015</h6>
+                    <p class="card_text"><a href="pelis_html/busquedaimplacable3.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="thriller">
+                <img src="../catalogo/peliculas/caceriasangrienta.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Caceria Sangrienta - Wake Up</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/caceriasangrienta.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/canceled.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Canceled</h6>
+                    <h6 class="card_title">2023</h6>
+                    <p class="card_text"><a href="pelis_html/canceled.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/cannibal_holocaust-205137701-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Cannibal Holocaust - Holocausto Canibal</h6>
+                    <h6 class="card_title">1980</h6>
+                    <p class="card_text"><a href="pelis_html/cannibalholocaust.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/cementeriodemascotas.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Cementerio De Mascotas: Los Origenes - Pet Sematary: Bloodlines</h6>
+                    <h6 class="card_title">2023</h6>
+                    <p class="card_text"><a href="pelis_html/cementeriodemascotas.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="artes marciales">
+                <img src="../catalogo/peliculas/chocolate-746198074-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Chocolate</h6>
+                    <h6 class="card_title">2008</h6>
+                    <p class="card_text"><a href="pelis_html/chocolate.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/cinderellasrevenge.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Cinderella's Revenge - La Venganza De Cenicienta</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/cinderelarevenge.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="comedia" data-gender="crimen">
+                <img src="../catalogo/peliculas/cityhunter.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">City Hunter - Cazador De Ciudad</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/cityhunter.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="ciencia ficcion">
+                <img src="../catalogo/peliculas/codigo81.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Codigo 8 Parte 1</h6>
+                    <h6 class="card_title">2019</h6>
+                    <p class="card_text"><a href="pelis_html/codigo81.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="ciencia ficcion" data-class="accion">
+                <img src="../catalogo/peliculas/codigo82.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Codigo 8 Parte 2</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/codigo82.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/consumed.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Consumed</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/consumed.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="ciencia ficcion" data-gender="catastrofes">
+                <img src="../catalogo/peliculas/contagion_of_fear-304369210-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Contagion Of Fear - Contaminados Por El Miedo</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/contagionoffear.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="accion" data-gender="comedia">
+                <img src="../catalogo/peliculas/contratodos.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Contra Todos - Boy Kills World</h6>
+                    <h6 class="card_title">2023</h6>
+                    <p class="card_text"><a href="pelis_html/contratodos.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller">
+                <img src="../catalogo/peliculas/contrl.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Control</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/contrl.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia" data-class="romance">
+                <img src="../catalogo/peliculas/crucerodelocas.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Crucero De Locas</h6>
+                    <h6 class="card_title">2003</h6>
+                    <p class="card_text"><a href="pelis_html/crucerodelocas.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="crimen">
+                <img src="../catalogo/peliculas/cuando_los_angeles_duermen-356460628-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Cuando Los Ángeles Duermen</h6>
+                    <h6 class="card_title">2018</h6>
+                    <p class="card_text"><a href="pelis_html/cuandolosangelesduermen.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/cuckoo-573651530-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Cuckoo</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/cuckoo.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="deporte" data-class="drama" data-gender="romance">
+                <img src="../catalogo/peliculas/curvasdelavida.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Curvas De La Vida</h6>
+                    <h6 class="card_title">2012</h6>
+                    <p class="card_text"><a href="pelis_html/curvasdelavida.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia">
+                <img src="../catalogo/peliculas/damepacienciaseñor.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Dame Paciencia Señor</h6>
+                    <h6 class="card_title">2017</h6>
+                    <p class="card_text"><a href="pelis_html/damepaciencia.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia" data-class="ciencia ficcion" data-gender="accion">
+                <img src="../catalogo/peliculas/deadpool_wolverine-864471588-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Deadpool Y Wolverine</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/deadpoolywolverine.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller">
+                <img src="../catalogo/peliculas/deadsea.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Dead Sea - Mar Muerto</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/deadsea.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia">
+                <img src="../catalogo/peliculas/decaperucitaaloba.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">De Caperucita A Loba</h6>
+                    <h6 class="card_title">2023</h6>
+                    <p class="card_text"><a href="pelis_html/decaperucitaaloba.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="drama" data-class="romance">
+                <img src="../catalogo/peliculas/Desafiantes.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Desafiantes - Rivales - Challengers</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/desafiantes.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/descansaenpaz.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Descansa En Paz - Handling The Undead</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/descansaenpaz.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="fantasia" data-class="musical">
+                <img src="../catalogo/peliculas/descendente4.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Los Descendientes: Corazón Rebelde - Descendants: The Rise of Red</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/descendants4.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller">
+                <img src="../catalogo/peliculas/detained-198204017-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Detained</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/detained.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="fantasia" data-class="accion">
+                <img src="../catalogo/peliculas/doctor_strange_in_the_multiverse_of_madness-610981386-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Doctor Strange En El Multiverso De La Locura</h6>
+                    <h6 class="card_title">2022</h6>
+                    <p class="card_text"><a href="pelis_html/doctorstrangemultiverse.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="crimen">
+                <img src="../catalogo/peliculas/dogman-432485980-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Dogman</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/dogman.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia">
+                <img src="../catalogo/peliculas/dostontosalafuga.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Dos Colgaos Muy Fumaos: Fuga De Guantánamo - Harold & Kumar Escape from Guantanamo Bay</h6>
+                    <h6 class="card_title">2008</h6>
+                    <p class="card_text"><a href="pelis_html/dostontosalafuga.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia">
+                <img src="../catalogo/peliculas/el_precio_de_educarlos-489240875-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">El Precio De Educarlos</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/elpreciodeeducarlos.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia" data-class="accion">
+                <img src="../catalogo/peliculas/elretornodelosthunermans.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">El Retorno De Los Thundermans</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/elretornodelosthunder.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="romance" data-class="drama" data-gender="fantasia">
+                <img src="../catalogo/peliculas/elsecretodeadeline.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">El Secreto De Adaline</h6>
+                    <h6 class="card_title">2015</h6>
+                    <p class="card_text"><a href="pelis_html/elsecretodeadeline.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="thriller">
+                <img src="../catalogo/peliculas/elsindicato.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">El Sindicato - La Union - The Union</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/elsindicato.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="drama">
+                <img src="../catalogo/peliculas/elsustituto.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">El Sustituto</h6>
+                    <h6 class="card_title">1996</h6>
+                    <p class="card_text"><a href="pelis_html/elsustituto.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/elvientredelmal.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">El Vientre Del Mal - Deliver Us</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/elvientredelmal.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="crimen">
+                <img src="../catalogo/peliculas/encierro.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Encierro - Locked In</h6>
+                    <h6 class="card_title">2023</h6>
+                    <p class="card_text"><a href="pelis_html/encierro.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="drama">
+                <img src="../catalogo/peliculas/enloprofundodeloceano.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">En Lo Profundo Del Oceano</h6>
+                    <h6 class="card_title">1999</h6>
+                    <p class="card_text"><a href="pelis_html/enloprofundodeloceano.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="terror">
+                <img src="../catalogo/peliculas/exhuma-177352283-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Exhuma</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/exhuma.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="accion" data-gender="crimen">
+                <img src="../catalogo/peliculas/fueradelassombras.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Fuera De Las Sombras</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/fueradelassombras.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="ciencia ficcion" data-class="accion" data-gender="aventura">
+                <img src="../catalogo/peliculas/g_i_joe_the_rise_of_cobra-679020065-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">G.I. Joe 1: EL Origen De La Cobra</h6>
+                    <h6 class="card_title">2009</h6>
+                    <p class="card_text"><a href="pelis_html/gijoe1.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="ciencia ficcion" data-class="accion" data-gender="aventura">
+                <img src="../catalogo/peliculas/g_i_joe_retaliation-685707396-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">G.I. Joe 2: La Venganza</h6>
+                    <h6 class="card_title">2013</h6>
+                    <p class="card_text"><a href="pelis_html/gijoe2.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/godlessthe.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">El Exorcismo De Eastfield - Godless: The Eastfield Exorcism</h6>
+                    <h6 class="card_title">2023</h6>
+                    <p class="card_text"><a href="pelis_html/godless.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="drama">
+                <img src="../catalogo/peliculas/goebbels.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Goebbels El Ministro De Propaganda</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/goebbels.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="thriller">
+                <img src="../catalogo/peliculas/gunner.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Gunner</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/gunner.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="comedia" data-gender="fantasia">
+                <img src="../catalogo/peliculas/habiaunavezundeadpool.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Habia Una Vez Un Deadpool</h6>
+                    <h6 class="card_title">2018</h6>
+                    <p class="card_text"><a href="pelis_html/habiaunavezundeadpool.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/halloween2018.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Halloween</h6>
+                    <h6 class="card_title">2018</h6>
+                    <p class="card_text"><a href="pelis_html/halloween2018.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="aventura" data-class="fantasia">
+                <img src="../catalogo/peliculas/harry_potter_and_the_sorcerer_s_stone-154820574-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Harry Potter Y La Piedra Filosofal</h6>
+                    <h6 class="card_title">2001</h6>
+                    <p class="card_text"><a href="pelis_html/harrypotter1.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="aventura" data-class="fantasia">
+                <img src="../catalogo/peliculas/harry_potter_and_the_chamber_of_secrets_harry_potter_2-420538488-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Harry Potter Y La Camara Secreta</h6>
+                    <h6 class="card_title">2002</h6>
+                    <p class="card_text"><a href="pelis_html/harrypotter2.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="aventura" data-class="fantasia">
+                <img src="../catalogo/peliculas/harry_potter_and_the_prisoner_of_azkaban_harry_potter_3-876411525-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Harry Potter Y El Prisionero De Azkaban</h6>
+                    <h6 class="card_title">2004</h6>
+                    <p class="card_text"><a href="pelis_html/harrypotter3.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="aventura" data-class="fantasia">
+                <img src="../catalogo/peliculas/harry_potter_and_the_goblet_of_fire_harry_potter_4-612673227-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Harry Potter Y El Caliz De Fuego</h6>
+                    <h6 class="card_title">2005</h6>
+                    <p class="card_text"><a href="pelis_html/harrypotter4.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="aventura" data-class="fantasia">
+                <img src="../catalogo/peliculas/harry_potter_and_the_order_of_the_phoenix_harry_potter_5-448254831-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Harry Potter Y La Orden Del Fenix</h6>
+                    <h6 class="card_title">2007</h6>
+                    <p class="card_text"><a href="pelis_html/harrypotter5.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="aventura" data-class="fantasia">
+                <img src="../catalogo/peliculas/harry_potter_and_the_half_blood_prince_harry_potter_6-140623436-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Harry Potter Y El Misterio Del Principe</h6>
+                    <h6 class="card_title">2009</h6>
+                    <p class="card_text"><a href="pelis_html/harrypotter6.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="aventura" data-class="fantasia">
+                <img src="../catalogo/peliculas/harry7.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Harry Potter Y Las Reliquias De La Muerte - Parte 1</h6>
+                    <h6 class="card_title">2010</h6>
+                    <p class="card_text"><a href="pelis_html/harrypotter7.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="aventura" data-class="fantasia">
+                <img src="../catalogo/peliculas/harry_potter_and_the_deathly_hallows_part_ii-477385286-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Harry Potter Y Las Reliquias De La Muerte - Parte 2</h6>
+                    <h6 class="card_title">2011</h6>
+                    <p class="card_text"><a href="pelis_html/harrypotter71.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="accion">
+                <img src="../catalogo/peliculas/heart_of_the_hunter-225887290-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Heart Of The Hunter - Corazon Del Cazador</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/heartofthehunter.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/hellboy_the_crooked_man-703712247-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Hellboy: El Hombre Retorcido - Hellboy: The Crooked Man</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/hellboy.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia" data-class="crimen">
+                <img src="../catalogo/peliculas/hermanos.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Hermanos - Brothers</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/hermanos.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia" data-class="accion">
+                <img src="../catalogo/peliculas/heroeporencargo.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Heroe Por Encargo - Freelance</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/heroeporencargo.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="accion">
+                <img src="../catalogo/peliculas/hitman.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Hitman</h6>
+                    <h6 class="card_title">2007</h6>
+                    <p class="card_text"><a href="pelis_html/hitman.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="comedia" data-gender="crimen">
+                <img src="../catalogo/peliculas/hitmancomedia.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Hit Man - Asesino Por Casualidad</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/hitmancomedia.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="aventura" data-class="oeste" data-gender="drama">
+                <img src="../catalogo/peliculas/Horizon-An American Saga. Parte 1-2024.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Horizon: An American Saga - Capítulo 1</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/horizon.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/inaviolentnature.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">In A Violent Nature - De Naturaleza Violenta</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/inaviolentnature.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia">
+                <img src="../catalogo/peliculas/inexpertos.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Inexpertos</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/inexpertos.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="drama">
+                <img src="../catalogo/peliculas/instintosasesinos.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Instintos Asesinos - Vidas Perfectas - Mother's Instinct</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/instintosasesinos.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="ciencia ficcion" data-gender="aventura" data-class="drama">
+                <img src="../catalogo/peliculas/interstellar-366875261-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Interestelar</h6>
+                    <h6 class="card_title">2014</h6>
+                    <p class="card_text"><a href="pelis_html/interestelar.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-gender="thriller" data-class="drama">
+                <img src="../catalogo/peliculas/invasioninsurreccion.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Invasion, Insurreccion</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/invasioninsurrecion.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-gender="thriller">
+                <img src="../catalogo/peliculas/jason1.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Identidad Oculta - El Caso Bourne</h6>
+                    <h6 class="card_title">2002</h6>
+                    <p class="card_text"><a href="pelis_html/jason1.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-gender="thriller">
+                <img src="../catalogo/peliculas/jason2.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Supremacia Bourne</h6>
+                    <h6 class="card_title">2004</h6>
+                    <p class="card_text"><a href="pelis_html/jason2.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-gender="thriller">
+                <img src="../catalogo/peliculas/jason3.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Bourne: El Ultimatum</h6>
+                    <h6 class="card_title">2007</h6>
+                    <p class="card_text"><a href="pelis_html/jason3.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-gender="thriller">
+                <img src="../catalogo/peliculas/jason4.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">El Legado Bourne</h6>
+                    <h6 class="card_title">2012</h6>
+                    <p class="card_text"><a href="pelis_html/jason4.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-gender="thriller">
+                <img src="../catalogo/peliculas/jason5.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Jason Bourne</h6>
+                    <h6 class="card_title">2016</h6>
+                    <p class="card_text"><a href="pelis_html/jason5.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/jeepers1.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Jeepers Creepers 1</h6>
+                    <h6 class="card_title">2001</h6>
+                    <p class="card_text"><a href="pelis_html/jeepers1.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/jeepers2.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Jeepers Creepers 2</h6>
+                    <h6 class="card_title">2003</h6>
+                    <p class="card_text"><a href="pelis_html/jeepers2.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/jeepers3.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Jeepers Creepers 3</h6>
+                    <h6 class="card_title">2017</h6>
+                    <p class="card_text"><a href="pelis_html/jeepeers3.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/jeepers4.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Jeepers Creepers 4</h6>
+                    <h6 class="card_title">2022</h6>
+                    <p class="card_text"><a href="pelis_html/jeepers4.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="crimen" data-gender="drama">
+                <img src="../catalogo/peliculas/joker_folie_a_deux-920647444-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Joker: Folie à Deux</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/joker.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="comedia">
+                <img src="../catalogo/peliculas/juegdeespias.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Juego De Espias: La Ciudad Eterna - My Spy: The Eternal City</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/juegodeespias.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="comedia" data-gender="thriller">
+                <img src="../catalogo/peliculas/juegodeasesinos.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Juego De Asesinos - The Killer's Game</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/juegodeasesinos.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="comedia" data-gender="aventura">
+                <img src="../catalogo/peliculas/jumanji.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Jumanji: El Siguiente Nivel</h6>
+                    <h6 class="card_title">2019</h6>
+                    <p class="card_text"><a href="pelis_html/jumanji.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion">
+                <img src="../catalogo/peliculas/kill-232332587-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Kill: Masacre En El Tren</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/kill.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="fantasia" data-class="romance">
+                <img src="../catalogo/peliculas/labellaylabestia.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Bella Y La Bestia</h6>
+                    <h6 class="card_title">2014</h6>
+                    <p class="card_text"><a href="pelis_html/labellaylabestia.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="drama" data-class="crimen">
+                <img src="../catalogo/peliculas/labellezayelenigmavuelven.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Belleza Y El Enigma Vuelven</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/labellezayelenigma.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror" data-class="thriller">
+                <img src="../catalogo/peliculas/lacasadelosusurros.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Casa De Los Susurros</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/lacasadelossusurros.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="drama">
+                <img src="../catalogo/peliculas/laforja.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Forja - La Fragua - The Forge</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/laforja.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror" data-class="thriller">
+                <img src="../catalogo/peliculas/laherencia.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Herencia - The Inheritance</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/laherencia.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="ciencia ficcion" data-gender="fantasia">
+                <img src="../catalogo/peliculas/laligadelajusticia.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Liga De La Justicia Por Zack Znyder</h6>
+                    <h6 class="card_title">2021</h6>
+                    <p class="card_text"><a href="pelis_html/laligadelajusticiazack.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror" data-class="thriller">
+                <img src="../catalogo/peliculas/lamaldicion1.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Maldicion 1 - El Grito 1</h6>
+                    <h6 class="card_title">2004</h6>
+                    <p class="card_text"><a href="pelis_html/lamaldicion1.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror" data-class="thriller">
+                <img src="../catalogo/peliculas/lamaldicion2.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Maldicion 2 - El Grito 2</h6>
+                    <h6 class="card_title">2006</h6>
+                    <p class="card_text"><a href="pelis_html/lamaldicion2.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror" data-class="thriller">
+                <img src="../catalogo/peliculas/lamaldicion3.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Maldicion - El Grito</h6>
+                    <h6 class="card_title">2020</h6>
+                    <p class="card_text"><a href="pelis_html/lamaldicion3.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/lamaldiciondecenicienta.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Maldicion De Cenicienta</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/lamaldiciondecenicienta.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="drama" data-class="deporte">
+                <img src="../catalogo/peliculas/lamborghini_the_legend-277163537-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Lamborghini: El Hombre Detras De La Leyenda</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/lamborgini.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia">
+                <img src="../catalogo/peliculas/lanavidaddeharoldykumar.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Navidad De Harold Y Khumar - Dos Colgaos Muy Fumaos En Navidad</h6>
+                    <h6 class="card_title">2011</h6>
+                    <p class="card_text"><a href="pelis_html/lanavidad.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia" data-class="romance" data-gender="drama">
+                <img src="../catalogo/peliculas/laotracaradelaluna.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Otra Cara De La Luna - Fly Me To The Moon</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/laotracaradelaluna.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia" data-class="accion">
+                <img src="../catalogo/peliculas/laschicasdeniza.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Las Chicas De Niza</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/laschicasdeniza.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror" data-class="ciencia ficcion">
+                <img src="../catalogo/peliculas/lasustancia.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Sustancia</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/lasustancia.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="crimen">
+                <img src="../catalogo/peliculas/latrampa.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Trampa</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/latrampa.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/latrampadelraton.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Trampa Del Raton</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/latrampadelraton.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/latristeza.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">La Tristeza</h6>
+                    <h6 class="card_title">2021</h6>
+                    <p class="card_text"><a href="pelis_html/latristeza.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror" data-class="romance" data-gender="comedia">
+                <img src="../catalogo/peliculas/lisa_frankenstein-494151975-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Lisa Frankenstein</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/lisafrankestein.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/littlebites.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Little Bites</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/littlebites.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="accion" data-class="thriller" data-gender="comedia">
+                <img src="../catalogo/peliculas/lobos.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Lobos</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/lobos.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror" data-class="thriller">
+                <img src="../catalogo/peliculas/longlegs-192102975-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Longlegs</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/longlegs.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="ciencia ficcion" data-class="thriller">
+                <img src="../catalogo/peliculas/loquehaydentro.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Lo Que Hay Dentro</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/loquehaydentro.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia">
+                <img src="../catalogo/peliculas/loscolegasdelbarrio.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Los Colegas Del Barrio</h6>
+                    <h6 class="card_title">1996</h6>
+                    <p class="card_text"><a href="pelis_html/loscolegasdelbarrio.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="terror">
+                <img src="../catalogo/peliculas/losextraños.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Los Extraños - Capitulo 1</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/losextraños1.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia" data-class="fantasia" data-gender="aventura">
+                <img src="../catalogo/peliculas/loshombreslobo.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Los Hombres Lobo</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/loshombreslobo.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia" data-class="accion" data-gender="policiaco">
+                <img src="../catalogo/peliculas/losincompatibles.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Incompatibles 2</h6>
+                    <h6 class="card_title">2022</h6>
+                    <p class="card_text"><a href="pelis_html/losincompatibles.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia" data-class="accion" data-gender="policiaco">
+                <img src="../catalogo/peliculas/losinfalibles.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Infalibles</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/losinfalibles.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="accion" data-gender="drama">
+                <img src="../catalogo/peliculas/losinfiltrados.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Infiltrados</h6>
+                    <h6 class="card_title">2006</h6>
+                    <p class="card_text"><a href="pelis_html/losinfiltrados.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="comedia">
+                <img src="../catalogo/peliculas/losinstigadores.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Instigadores</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/losinstigadores.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="accion" data-gender="drama">
+                <img src="../catalogo/peliculas/losintocables.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Los Intocables</h6>
+                    <h6 class="card_title">1987</h6>
+                    <p class="card_text"><a href="pelis_html/losintocables.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="ciencia ficcion" data-gender="aventura">
+                <img src="../catalogo/peliculas/losjuegosdelhambre1.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Los Juegos Del Hambre 1</h6>
+                    <h6 class="card_title">2012</h6>
+                    <p class="card_text"><a href="pelis_html/losjuegosdelhambre1.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="ciencia ficcion" data-gender="aventura">
+                <img src="../catalogo/peliculas/losjuegosdelhambre2.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Los Juegos Del Hambre 2</h6>
+                    <h6 class="card_title">2013</h6>
+                    <p class="card_text"><a href="pelis_html/losjuegosdelhambre2.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="ciencia ficcion" data-gender="aventura">
+                <img src="../catalogo/peliculas/losjuegosdelhambre3.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Los Juegos Del Hambre 3</h6>
+                    <h6 class="card_title">2014</h6>
+                    <p class="card_text"><a href="pelis_html/losjuegosdelhambre3.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="ciencia ficcion" data-gender="aventura">
+                <img src="../catalogo/peliculas/losjuegosdelhambre4.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Los Juegos Del Hambre 4</h6>
+                    <h6 class="card_title">2015</h6>
+                    <p class="card_text"><a href="pelis_html/losjuegosdelhambre4.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="ciencia ficcion" data-gender="aventura">
+                <img src="../catalogo/peliculas/losjuegosdelhambre5.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Los Juegos Del Hambre 5</h6>
+                    <h6 class="card_title">2015</h6>
+                    <p class="card_text"><a href="pelis_html/losjuegosdelhambre5.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="thriller" data-class="drama">
+                <img src="../catalogo/peliculas/love_lies_bleeding-646759765-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Sangre En Los Labios - Love Lies Bleeding</h6>
+                    <h6 class="card_title">2024</h6>
+                    <p class="card_text"><a href="pelis_html/lovelies.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia" data-class="romance">
+                <img src="../catalogo/peliculas/lovereset.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Love Reset</h6>
+                    <h6 class="card_title">2023</h6>
+                    <p class="card_text"><a href="pelis_html/lovereset.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="comedia" data-class="romance">
+                <img src="../catalogo/peliculas/lunademielenfamilia.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Luna De Miel En Familia - Juntos Y Revueltos</h6>
+                    <h6 class="card_title">2014</h6>
+                    <p class="card_text"><a href="pelis_html/lunademiel.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="deporte" data-class="comedia">
+                <img src="../catalogo/peliculas/major_league-431572643-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Major League</h6>
+                    <h6 class="card_title">1989</h6>
+                    <p class="card_text"><a href="pelis_html/majorleague.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="musical" data-gender="romance" data-class="comedia">
+                <img src="../catalogo/peliculas/mamma_mia-326443202-large.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Mamma Mia!</h6>
+                    <h6 class="card_title">2008</h6>
+                    <p class="card_text"><a href="pelis_html/mammamia.html">Leer Más</a></p>
+                </div>
+            </div>
+
+            <div class="card" data-name="romance" data-gender="drama" data-class="comedia">
+                <img src="../catalogo/peliculas/maravillosodesastre.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Mamma Mia!</h6>
+                    <h6 class="card_title">2023</h6>
+                    <p class="card_text"><a href="pelis_html/maravillosodesastre.html">Leer Más</a></p>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </section>
+
+    
+
+    <script src="../js/peliculas_filter.js"></script>
+</body>
+</html>
