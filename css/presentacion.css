@@ -1,93 +1,124 @@
 /* Estilos generales */
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-    display: flex;
-    flex-direction: column; /* Estructura en columna */
-    max-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente más profesional */
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0,0,0,0.7); /* Fondo ligeramente transparente */
+  color: #eee; /* Color de texto claro */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Asegurar que el contenido ocupe toda la altura */
 }
 
 section {
-    margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 p {
-    line-height: 1.6; /* Espacio entre líneas del texto */
+  line-height: 1.6;
+  font-size: 1rem; /* Tamaño de texto base */
 }
 
-footer {
+h1, h2 {
+  font-weight: 700; /* Negritas */
+  margin-bottom: 10px;
+}
 
-    color: white;
-    padding: 10px;
-    text-align: center;
-    position:fixed;
-   left:0px;
-   bottom:0px;
-   height:50px;
-   width:100%;
-   background:#333;
+a {
+  color: #007bff; /* Enlace azul */
+  text-decoration: none; /* Quitar subrayado */
+}
+
+a:hover {
+  text-decoration: underline; /* Subrayar al pasar el ratón */
 }
 
 
 /* Estilos para el header */
 #header {
-    display: flex;
-    align-items: center;
-    color: white;
-    padding: 20px;
-    position: relative;
-    margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas pequeñas */
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 20px;
 }
 
 .header-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    max-height: 200vh;
-    height: 100%;
-    background-size: cover;
-    filter: blur(6px);
-    opacity: 0.4;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100% !important;
+  background-size: cover;
+  background-position: center; /* Centrar imagen de fondo */
+  filter: blur(8px); /* Aumentar blur para mejor efecto */
+  opacity: 0.5; /* Reducir opacidad */
+  z-index: -1;
 }
 
 #header img {
-    width: 300px;
-    height: auto;
-    margin-right: 20px;
-    border: 5px solid white;
-    box-shadow: 0 0 10px black;
+  width: 100%; /* Ajustar el ancho de la imagen al contenedor */
+  max-width: 300px; /* Limitar el ancho máximo de la imagen */
+  height: auto;
+  margin-right: 20px;
+  margin-bottom: 20px; /* Espacio para pantallas pequeñas */
+  border: 5px solid #eee;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 #header h1 {
-    flex: 1;
-    font-size: 2em;
-    margin: 0;
-} 
+  flex: 1;
+  font-size: 2em;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Sombra de texto para mejor legibilidad */
 
+}
 
 /* Estilo para la sección de sinopsis */
 #caracteristicas {
-  display: flex;
-  align-items: flex-start; /* Alineación vertical */
-  flex-direction: column; /* Para que el texto vaya en columna */
-  width: 40%; /* Ancho para el texto*/
-}
-#caracteristicas p {
-  font-size: 1.3em;
-  color: white;
+  flex: 1; /* Ocupar el espacio restante */
+  padding: 10px;
 }
 
-#trailer{
-  float: right;
-  padding: 4%;
+#caracteristicas p {
+  font-size: 1.5em;
+}
+
+/* Estilos para el trailer */
+#trailer {
+  width: 100%; /* Ocupar todo el ancho en pantallas pequeñas */
+  height: 100%;
+  margin-top: 20px; /* Espacio entre el poster y el trailer */
 }
 
 #trailer iframe {
-  width: 100%; /* Para que el iframe ocupe todo el ancho disponible */
-  height: auto;
-  box-shadow: 0 0 10px black;
+  max-width: 700px;
+  width: 100%;
+  height: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Sombra más suave */
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) { /* Ajustes para tablets y móviles */
+  #header {
+      flex-direction: column; /* Apilar elementos verticalmente */
+      align-items: center; /* Centrar elementos */
+  }
+
+  #header img {
+      margin-right: 0; /* Eliminar margen derecho */
+      margin-bottom: 20px; /* Espacio entre imagen y título */
+      max-width: 100%; /* Imagen ocupa todo el ancho */
+  }
+
+  #header h1 {
+      font-size: 1.5em; /* Reducir tamaño del título */
+      text-align: center; /* Centrar título */
+  }
+
+  #caracteristicas {
+      width: 100%; /* Sección de características ocupa todo el ancho */
+  }
 }
